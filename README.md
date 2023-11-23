@@ -29,10 +29,10 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/dH9rFdy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CbI0xAI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Start by creating a single Resource Group for both Virtual Machines (VM), and remember to choose the same region for both Virtual Machines.
 </p>
 <br />
 
