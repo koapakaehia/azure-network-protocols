@@ -32,7 +32,43 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 <img src="https://i.imgur.com/CbI0xAI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Start by creating a single Resource Group for both Virtual Machines (VM), and remember to choose the same region for both Virtual Machines.
+
+<p>
+<img src="https://i.imgur.com/3PnySam.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+Step 1: Sign in
+-Log in to the Azure Portal with your Azure account.
+
+Step 2: Create Resource Group
+
+-In the top menu, click on "Resource groups."
+
+-Click the "+ Add" button.
+
+<p>
+<img src="https://i.imgur.com/3PnySam.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+Step 3: Basic Details
+-Subscription: Choose your Azure subscription.
+-Resource group: Enter a unique name for your resource group (e.g., "RG-Lab-01").
+-Region: Select the region (location) for your resource group. Remeber your Region because we want to create our additional resource in the same region.
+
+Step 4: Review and Create
+-Click on the "Review + create" tab.
+-Review your settings.
+
+Step 5: Create
+-Click the "Create" button.
+
+Step 6: Wait
+-Wait for Azure to create your resource group. You'll see a notification when it's done.
+
+Step 7: Confirmation
+Go back to "Resource groups" in the left menu. You should see your new resource group listed..
 </p>
 <br />
 
