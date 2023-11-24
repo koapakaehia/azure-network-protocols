@@ -41,6 +41,7 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 <b>Creating a Resource Group in Azure</b>
 
 Step 1: Sign in
+
 -Log in to the Azure Portal with your Azure account.
 
 Step 2: Create Resource Group
