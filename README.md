@@ -20,11 +20,11 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 
 <h2>High-Level Steps</h2>
 
-- Step 1  Create an Azure Resource Group with Windows 10 and Ubuntu Virtual Machines: Deploy both on the same virtual network and subnet for simplified cloud management.
-- Step 2  Connect to the Windows VM with remote desktop, then download and install Wireshark for analyzing and monitoring networks.
-- Step 3  Open Wireshark on your Windows VM, filter for ICMP traffic. Find the private IP of your Linux VM, then ping it from your Windows VM and see the pings in Wireshark.
-- Step 4  Access the Network Security Group (NSG) settings for your Ubuntu VM. Turn off incoming ICMP traffic and see how it affects ICMP traffic on your Windows VM. Later, re-enable ICMP traffic in the same NSG for your Ubuntu VM and observe the changes in ICMP traffic on your Windows VM.
-- Step 5  Use Wireshark to filter and study traffic for SSH, DHCP, DNS, and RDP protocols. Watch how each behaves for detailed insights
+- Create an Azure Resource Group with Windows 10 and Ubuntu Virtual Machines: Deploy both on the same virtual network and subnet for simplified cloud management.
+- Connect to the Windows VM with remote desktop, then download and install Wireshark for analyzing and monitoring networks.
+- Open Wireshark on your Windows VM, filter for ICMP traffic. Find the private IP of your Linux VM, then ping it from your Windows VM and see the pings in Wireshark.
+- Access the Network Security Group (NSG) settings for your Ubuntu VM. Turn off incoming ICMP traffic and see how it affects ICMP traffic on your Windows VM. Later, re-enable ICMP traffic in the same NSG for your Ubuntu VM and observe the changes in ICMP traffic on your Windows VM.
+- Use Wireshark to filter and study traffic for SSH, DHCP, DNS, and RDP protocols. Watch how each behaves for detailed insights
 
 <h2>Actions and Observations</h2>
 
@@ -45,16 +45,20 @@ Step 2: Create Resource Group
 
 -In the top menu, click on "Resource groups."
 
--Click the "+ Add" button.
+-Click the "+ Create" button.
 
 <p>
-<img src="https://i.imgur.com/3PnySam.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9HaJh9s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 Step 3: Basic Details
+
+
 -Subscription: Choose your Azure subscription.
--Resource group: Enter a unique name for your resource group (e.g., "RG-Lab-01").
+
+-Resource group: Enter a unique name for your resource group (e.g., "RG-Lab-02").
+
 -Region: Select the region (location) for your resource group. Remeber your Region because we want to create our additional resource in the same region.
 
 Step 4: Review and Create
