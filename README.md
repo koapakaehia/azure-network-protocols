@@ -38,7 +38,7 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 </p>
 <p>
 
-<b>Creating a Resource Group in Azure</b>
+<b>CREATING A RESOURCE GROUP IN AZURE</b>
 
 Step 1: Sign in
 
