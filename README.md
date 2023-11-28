@@ -88,13 +88,13 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 -Wait for Azure to create your resource group. You'll see a notification when it's done.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/TCipZEh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-Step 7: Confirmation
+<b>Step 7: Confirmation</b>
 
-Go back to "Resource groups" in the left menu. You should see your new resource group listed..
+Go back to the home page and "Resource groups" in the top menu. You should see your new resource group listed..
 </p>
 <br />
 
