@@ -40,11 +40,11 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 
 <b>CREATING A RESOURCE GROUP IN AZURE</b>
 
-Step 1: Sign in
+<b>Step 1: Sign in</b>
 
 -Log in to the Azure Portal with your Azure account.
 
-Step 2: Create Resource Group
+<b>Step 2: Create Resource Group</b>
 
 -In the top menu, click on "Resource groups."
 
@@ -55,8 +55,12 @@ Step 2: Create Resource Group
 </p>
 <p>
 
-Step 3: Basic Details
+<p>
+<img src="https://i.imgur.com/leKbjJU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
+<b>Step 3: Basic Details</b>
 
 -Subscription: Choose your Azure subscription.
 
@@ -64,32 +68,27 @@ Step 3: Basic Details
 
 -Region: Select the region (location) for your resource group. Remeber your Region because we want to create our additional resource in the same region.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-Step 4: Review and Create
+<b>Step 4: Review and Create</b>
 
 -Click on the "Review + create" tab.
 
--Review your settings.
-
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0T296py.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-Step 5: Create
+<b>Step 5: Create</b>
+
+-Review your settings.
 
 -Click the "Create" button.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/62iWiFf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-Step 6: Wait
+<b>Step 6: Wait</b>
 
 -Wait for Azure to create your resource group. You'll see a notification when it's done.
 
@@ -104,6 +103,13 @@ Go back to "Resource groups" in the left menu. You should see your new resource 
 </p>
 <br />
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -113,3 +119,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
