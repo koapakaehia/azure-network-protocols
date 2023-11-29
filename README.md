@@ -88,7 +88,7 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qo6vRqH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <b>CREATING VIRTUAL MACHINES (WINDOWS 10 AND LINUX) ON AZURE.</b>
@@ -96,25 +96,51 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 <b>Step 1: Search for Virtual Machines (VMs)</b>
 * Open the Azure portal.
 * In the search bar, type "Virtual Machines" and select it.
-  
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PWX5X9E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
 <b>STEP 2: CREATE WINDOWS 10 VM (VM1)</b>
 
 * Click on "Add" and "Azure Virtual Machine" to start creating a new VM.
-* Choose "Windows 10" as the operating system.
-* Name the VM as "VM1."
-* Set up a username and password for RDP access.
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/5zPNtp8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+* Using the Same Subscription and Resource Group, Name the VM as "VM1."
+* Choose the same region as your resource group.
+* For Image choose "Windows 10" (operating system.)
+* Choose “Standard 2vCPUs”
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/dJ4zRyq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+
+* Set up a username and password for Remote Desktop Protocol (RDP) access.
 * Check the licensing box.
-* Choose the standard 2vCPUs.
+
+<img src="https://i.imgur.com/IosKl2B.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/F2M3B7r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 * Navigate to the Networking tab and note the Virtual Network (Vnet) for VM1.
-* Select "Review + create" and, after successful validation, click on "Create."
-* Wait for VM1 to complete its setup.
+* Select "Review + create"
+* and, after successful validation, click on "Create."
   
 </p>
 <br />
