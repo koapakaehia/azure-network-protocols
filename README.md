@@ -178,6 +178,11 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 </p>
 <br />
 
+<p>
+<img src="https://i.imgur.com/Lqy9KoP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
 * Navigate to the Networking tab and ensure that VM2 is configured with the same Virtual Network as VM1.
 * Select "Review + create" and, after successful validation, click on "Create."
 * Wait for VM2 to complete its setup.
