@@ -105,26 +105,17 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 </p>
 <p>
 <b>STEP 2: CREATE WINDOWS 10 VM (VM1)</b>
-* Click on "Add" to start creating a new VM.
 
+* Click on "Add" and "Azure Virtual Machine" to start creating a new VM.
 * Choose "Windows 10" as the operating system.
-
 * Name the VM as "VM1."
-
 * Set up a username and password for RDP access.
-
 * Check the licensing box.
-
 * Choose the standard 2vCPUs.
-
 * Navigate to the Networking tab and note the Virtual Network (Vnet) for VM1.
-
 * Select "Review + create" and, after successful validation, click on "Create."
-
 * Wait for VM1 to complete its setup.
   
-</p>
-<br />
 </p>
 <br />
 
@@ -132,7 +123,19 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<b>Step 3: Create Linux (Ubuntu) VM (VM2)</b>
+  
+* While VM1 is finalizing, go back to the Virtual Machines section.
+* Click on "Add" to create another VM.
+* This time, choose "Ubuntu" as the operating system.
+* Name the VM as "VM2."
+* Change authentication from SSH public key to password.
+* Provide a username and password for VM2.
+* Ensure that VM2 is configured with the same Virtual Network as VM1.
+* Select "Review + create" and, after successful validation, click on "Create."
+* Wait for VM2 to complete its setup.
+* Now, you should have two VMs ready to establish a connection with each other on our Virtual Network (Vnet).
+  
 </p>
 <br />
 
