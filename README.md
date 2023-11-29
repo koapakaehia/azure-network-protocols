@@ -165,7 +165,7 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 * For Image choose "Ubuntu" (Linux) as the operating system.
 
 <p>
-<img src="https://i.imgur.com/dJ4zRyq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3aSpkj0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
@@ -173,14 +173,21 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 * Change “Authentication type” from SSH public key to password.
 * Set up a username and password for Remote Desktop Protocol (RDP) access.
 
-* Ensure that VM2 is configured with the same Virtual Network as VM1.
+<p>
+<img src="https://i.imgur.com/ZqugBf0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+* Navigate to the Networking tab and ensure that VM2 is configured with the same Virtual Network as VM1.
 * Select "Review + create" and, after successful validation, click on "Create."
 * Wait for VM2 to complete its setup.
 
-* Now, you should have two VMs ready to establish a connection with each other on our Virtual Network (Vnet).  
-
+<p>
+<img src="https://i.imgur.com/ZqugBf0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+
+* Now, you should have two VMs ready to establish a connection with each other on our Virtual Network (Vnet).  
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
