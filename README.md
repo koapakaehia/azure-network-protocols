@@ -124,7 +124,7 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 <br />
 
 <p>
-<img src="https://i.imgur.com/dJ4zRyq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QGC6l95.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
