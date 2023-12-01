@@ -3,7 +3,7 @@
 </p>
 
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this tutorial, we explore the network traffic to and from Azure Virtual Machines using Wireshark, and conduct practical experiments with Network Security Groups.
+In this tutorial, we'll be examining the network activity of Azure Virtual Machines through Wireshark. Additionally, we'll be conducting hands-on experiments with Network Security Groups, all performed on a Mac OS.
 
 <h2>Environments and Technologies Used</h2>
 
@@ -17,11 +17,12 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 
 - Windows 10 (21H2)
 - Ubuntu Server 20.04
+- Mac Os (user)
 
 <h2>High-Level Steps</h2>
 
 - Create an Azure Resource Group with Windows 10 and Ubuntu Virtual Machines: Deploy both on the same virtual network and subnet for simplified cloud management.
-- Connect to the Windows VM with remote desktop, then download and install Wireshark for analyzing and monitoring networks.
+- Connect to the Windows VM with remote desktop (download Microsoft Remote Desktop on Mac) and then download and install Wireshark for analyzing and monitoring networks.
 - Open Wireshark on your Windows VM, filter for ICMP traffic. Find the private IP of your Linux VM, then ping it from your Windows VM and see the pings in Wireshark.
 - Access the Network Security Group (NSG) settings for your Ubuntu VM. Turn off incoming ICMP traffic and see how it affects ICMP traffic on your Windows VM. Later, re-enable ICMP traffic in the same NSG for your Ubuntu VM and observe the changes in ICMP traffic on your Windows VM.
 - Use Wireshark to filter and study traffic for SSH, DHCP, DNS, and RDP protocols. Watch how each behaves for detailed insights
@@ -81,22 +82,18 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 <p>
 
 <b>Step 7: Confirmation</b>
-* Go back to the home page and "Resource groups" in the top menu. You should see your new resource group listed..
-</p>
-<br />
+* Go back to the home page and "Resource groups" in the top menu. You should see your new resource group listed.
 
 <p>
 <img src="https://i.imgur.com/qo6vRqH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
 <b>CREATING VIRTUAL MACHINES (WINDOWS 10 AND LINUX) ON AZURE.</b>
 
 <b>Step 1: Search for Virtual Machines (VMs)</b>
 * Open the Azure portal.
 * In the search bar, type "Virtual Machines" and select it.
-
-</p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/PWX5X9E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -107,9 +104,6 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 
 * Click on "Add" and "Azure Virtual Machine" to start creating a new VM.
 
-</p>
-<br />
-
 <p>
 <img src="https://i.imgur.com/5zPNtp8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -119,9 +113,6 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 * Choose the same region as your resource group.
 * For Image choose "Windows 10" (operating system.)
 * Choose “Standard 2vCPUs”
-
-</p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/QGC6l95.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -144,20 +135,13 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 * Navigate to the Networking tab and note the Virtual Network (Vnet) for VM1.
 * Select "Review + create"
 * and, after successful validation, click on "Create."
-</p>
-<br />
-
-<p>
-<b>Step 3: Create Linux (Ubuntu) VM (VM2)</b>
-
-</p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/LTm342F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
+<b>Step 3: Create Linux (Ubuntu) VM (VM2)</b>
 * While VM1 is finalizing, go back to the Virtual Machines section.
 * Click on "Add" to create another VM.
 * Using the Same Subscription and Resource Group, Name the VM as "VM2.”
@@ -201,11 +185,12 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 
 <b>CONNECTING VMs AND CAPTURING NETWORK PACKETS WITH WIRESHARK</b>
 
-Step 1. Connect to Windows 10 VM (VM1):
+<b>Step 1. Connect to Windows 10 VM (VM1):</b>
 * In the Azure portal, click on "Virtual machines."
 * Select "VM1" from the list.
 * Note down VM1's public IP address.
-* On a Windows computer: Open "Remote Desktop Connection."
+* For Mac OS, download and install “Microsoft Remote Desktop”
+* Next open "Remote Desktop"
 * Enter VM1's public IP.
 * Click "Connect."
 
@@ -244,6 +229,7 @@ Step 4. Open and Start Capturing with Wireshark:
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
