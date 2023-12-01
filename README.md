@@ -204,33 +204,52 @@ In this tutorial, we'll be examining the network activity of Azure Virtual Machi
 * Click on "continue" for the certification.
 
 <p>
-<img src="https://i.imgur.com/HPoemkd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4hvT67N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 Step 2. Certification and Access:
-* a. After connecting, allow VM1 to access other PCs on the network if prompted.
-* b. Open a web browser on VM1.
-* c. Go to google.com.
+* After connecting, allow VM1 to access other PCs on the network if prompted.
+* Open a web browser on VM1.
+
+<p>
+<img src="https://i.imgur.com/dReuwQV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 Step 3. Download and Install Wireshark:
-* a. In the Google search bar, type "Wireshark" and press Enter.
-* b. Locate the official Wireshark website in the search results.
-* c. Download the Wireshark program for Windows from the official website.
-* d. Install Wireshark on VM1 following the installation prompts.
+* Go to google.com.
+* In the Google search bar, type "Wireshark" and press Enter.
+
+<p>
+<img src="https://i.imgur.com/V9NhoUU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+* Locate the official Wireshark website in the search results.
+* Download the Wireshark program for Windows from the official website.
+* Install Wireshark on VM1 following the installation prompts.
+
+<p>
+<img src="https://i.imgur.com/jyeDgFs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 Step 4. Open and Start Capturing with Wireshark:
-* a. Launch Wireshark after installation.
-* b. In Wireshark, click on "Ethernet" to start capturing packets.
-* c. Analyze the captured packets as needed.
+* Launch Wireshark after installation.
+
+<p>
+<img src="https://i.imgur.com/Js0xWOX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<br />
+<p>
+
+* In Wireshark, click on "Ethernet" to start capturing packets and to analyze the captured packets as needed.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
 <p>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
