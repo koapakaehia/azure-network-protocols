@@ -188,11 +188,46 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 * Wait for VM2 to complete its setup.
 
 <p>
-<img src="https://i.imgur.com/ZqugBf0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 * Now, you should have two VMs ready to establish a connection with each other on our Virtual Network (Vnet).  
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+<b>CONNECTING VMs AND CAPTURING NETWORK PACKETS WITH WIRESHARK</b>
+
+Step 1. Connect to Windows 10 VM (VM1):
+* In the Azure portal, click on "Virtual machines."
+* Select "VM1" from the list.
+* Note down VM1's public IP address.
+* On a Windows computer:
+* Open "Remote Desktop Connection."
+* Enter VM1's public IP.
+* Click "Connect."
+* Enter your VM1 username and password when prompted.
+
+Step 2. Certification and Access:
+* a. After connecting, allow VM1 to access other PCs on the network if prompted.
+* b. Open a web browser on VM1.
+* c. Go to google.com.
+
+Step 3. Download and Install Wireshark:
+* a. In the Google search bar, type "Wireshark" and press Enter.
+* b. Locate the official Wireshark website in the search results.
+* c. Download the Wireshark program for Windows from the official website.
+* d. Install Wireshark on VM1 following the installation prompts.
+
+Step 4. Open and Start Capturing with Wireshark:
+* a. Launch Wireshark after installation.
+* b. In Wireshark, click on "Ethernet" to start capturing packets.
+* c. Analyze the captured packets as needed.
+</p>
+<br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
