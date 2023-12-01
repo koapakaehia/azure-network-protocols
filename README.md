@@ -188,14 +188,14 @@ In this tutorial, we explore the network traffic to and from Azure Virtual Machi
 * Wait for VM2 to complete its setup.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IRVwCs8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 * Now, you should have two VMs ready to establish a connection with each other on our Virtual Network (Vnet).  
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mreIS2m.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -205,11 +205,23 @@ Step 1. Connect to Windows 10 VM (VM1):
 * In the Azure portal, click on "Virtual machines."
 * Select "VM1" from the list.
 * Note down VM1's public IP address.
-* On a Windows computer:
-* Open "Remote Desktop Connection."
+* On a Windows computer: Open "Remote Desktop Connection."
 * Enter VM1's public IP.
 * Click "Connect."
+
+<p>
+<img src="https://i.imgur.com/HPoemkd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+* Scroll down to “Use a different account” and hit enter.
 * Enter your VM1 username and password when prompted.
+* Click on "continue" for the certification.
+
+<p>
+<img src="https://i.imgur.com/HPoemkd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 Step 2. Certification and Access:
 * a. After connecting, allow VM1 to access other PCs on the network if prompted.
