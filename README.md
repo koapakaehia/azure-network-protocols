@@ -246,6 +246,41 @@ Step 4. Open and Start Capturing with Wireshark:
 * In Wireshark, click on "Ethernet" to start capturing packets and to analyze the captured packets as needed.
 
 <p>
+<img src="https://i.imgur.com/CSKjv7f.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+<b>NETWORK TESTING WITH WIRESHARK AND NSG: PING AND ICMP TRAFFIC ANALYSIS</b>
+
+<b>Step 1. Ping Linux "VM2" from Windows VM1:</b>
+* Open Wireshark on Windows VM1.
+* Filter for ICMP traffic.
+
+<p>
+<img src="https://i.imgur.com/AHhkDDg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+* Find Linux VM2's private IP.
+
+<p>
+<img src="https://i.imgur.com/8OGTso1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+* On Windows VM1 Command Prompt, type ping (Linux VM2's private IP).
+* Observe changes in Windows VM1 ICMP traffic.
+
+<b>Step 2. Manage ICMP Traffic with NSG for Ubuntu VM2:</b>
+* First do a perpetual ping from VM1 To VM2, using the command prompt on VM1.
+* On VM1 Command Prompt, type ping -t (VM2's private IP) for perpetual ping.
+* Access NSG settings for Ubuntu VM2.
+* Turn off incoming ICMP traffic.
+* Observe impact on Windows VM1’s ICMP traffic.
+* Re-enable ICMP traffic in NSG for Ubuntu VM2.
+* Observe changes in Windows VM1’s ICMP traffic.
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
