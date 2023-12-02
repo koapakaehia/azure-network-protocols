@@ -285,6 +285,43 @@ Step 4. Open and Start Capturing with Wireshark:
 </p>
 <p>
 
+<b>Step 3: Filter DNS (Domain Name System) Traffic:</b>
+* In Wireshark, filter for DNS traffic.
+* Refresh Wireshark and continue without saving. Now you are filtering by DNS traffic.
+* Observe traffic when using nslookup:
+* In VM1's Command Prompt, type: nslookup (website)
+* Observe DNS Traffic.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+<b>Step 4: Filter RDP (Remote Desktop Protocol) Traffic:</b>
+* Refresh Wireshark and continue without saving.
+* In Wireshark, filter for RDP traffic or tcp.port == 3389.
+* Observe traffic when using RDP between VM1 and VM2.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+<b>Step 5: Cleanup in Azure:</b>
+* When finished, delete your Resource Group and Virtual Machines in Microsoft Azure to avoid incurring costs.
+* Go to the Azure portal.
+* Click on Resource groups and select your created Resource Group.
+* Click on Delete resource group.
+* Copy and paste the resource group and click delete.
+* Repeat steps for any remaining Resource groups in your subscription that may have been automatically created.
+* Go back to resource groups and refresh.
+* When it says "No resource groups to display," you are done.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
