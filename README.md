@@ -179,7 +179,7 @@ In this tutorial, we'll be examining the network activity of Azure Virtual Machi
 * Now, you should have two VMs ready to establish a connection with each other on our Virtual Network (Vnet).  
 
 <p>
-<img src="https://i.imgur.com/mreIS2m.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PyBUjVV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -189,10 +189,28 @@ In this tutorial, we'll be examining the network activity of Azure Virtual Machi
 * In the Azure portal, click on "Virtual machines."
 * Select "VM1" from the list.
 * Note down VM1's public IP address.
+
+<p>
+<img src="https://i.imgur.com/LHwt2HR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
 * For Mac OS, download and install “Microsoft Remote Desktop”
 * Next open "Remote Desktop"
+
+<p>
+<img src="https://i.imgur.com/jVAoxeF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+<p>
+<img src="https://i.imgur.com/kcO9TNh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+* Click the "+" Add PC.
 * Enter VM1's public IP.
-* Click "Connect."
+* Click "Add."
 
 <p>
 <img src="https://i.imgur.com/HPoemkd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -279,6 +297,38 @@ Step 4. Open and Start Capturing with Wireshark:
 * Observe impact on Windows VM1’s ICMP traffic.
 * Re-enable ICMP traffic in NSG for Ubuntu VM2.
 * Observe changes in Windows VM1’s ICMP traffic.
+* To stop the perpetual ping in the Command Prompt press Ctrl + C"
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+<b>WIRESHARK TRAFFIC ANALYSIS: SSH, DHCP, DNS, and RDP PROTOCOLS</b>
+
+Step 1. Observe SSH (Secure Shell) Traffic:
+* On VM1 Go to Wireshark and Filter for “ssh”
+* Refresh Wireshark and continue without saving. So now your filtering by SSH traffic.
+* Log into VM2 from VM1's Command Prompt using SSH
+* Type the following command:
+* ssh labuser@10.0.0.5 (VM2’s username@VM2's private IP) and enter. 
+* It will ask are you sure you want to continue connecting, Type yes and enter.
+* Enter the password (password will be blank, but you are typing.)
+* Then you should have a connection to VM2.
+* Observe SSH Traffic
+* To exit SSH connection type exit in the command line + enter and the connection is closed and you will be back in VM1’s command line.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+Step 2. Filter DHCP (Dynamic Host Configuration Protocol) Traffic:
+* In Wireshark, filter for DHCP traffic.
+* Refresh Wireshark and continue without saving. So now your filtering by DHCP traffic.
+* Attempt to issue VM1 a new IP address:
+* In VM1's Command Prompt, type: ipconfig /renew + enter.
+* Observe DHCP Traffic. 
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
