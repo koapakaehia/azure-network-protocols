@@ -320,7 +320,7 @@ Step 4. Open and Start Capturing with Wireshark:
 <p>
 
 * Disable incoming ICMP traffic.
-* In "Add Inbound Port Rule,"
+* In "Add Inbound Security Rule,"
 * For Protocol, select ICMP.
 * For Action, select Deny.
 * Then click "Add."
