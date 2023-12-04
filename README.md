@@ -389,25 +389,37 @@ Step 4. Open and Start Capturing with Wireshark:
 * To exit SSH connection type exit in the command line + enter and the connection is closed and you will be back in VM1’s command line.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/o1s8nx5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-Step 2. Filter DHCP (Dynamic Host Configuration Protocol) Traffic:
+<b>Step 2. Filter DHCP (Dynamic Host Configuration Protocol) Traffic:</b>
 * In Wireshark, filter for DHCP traffic.
 * Refresh Wireshark and continue without saving. So now your filtering by DHCP traffic.
+
+<p>
+<img src="https://i.imgur.com/OvfZegv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
 * Attempt to issue VM1 a new IP address:
 * In VM1's Command Prompt, type: ipconfig /renew + enter.
 * Observe DHCP Traffic. 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/u5EfJat.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 <b>Step 3: Filter DNS (Domain Name System) Traffic:</b>
 * In Wireshark, filter for DNS traffic.
 * Refresh Wireshark and continue without saving. Now you are filtering by DNS traffic.
+
+<p>
+<img src="https://i.imgur.com/uBNlUIx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
 * Observe traffic when using nslookup:
 * In VM1's Command Prompt, type: nslookup (website)
 * Observe DNS Traffic.
