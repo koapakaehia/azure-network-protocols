@@ -213,13 +213,18 @@ In this tutorial, we'll be examining the network activity of Azure Virtual Machi
 * Click "Add."
 
 <p>
-<img src="https://i.imgur.com/HPoemkd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DziOFbv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-* Scroll down to “Use a different account” and hit enter.
-* Enter your VM1 username and password when prompted.
-* Click on "continue" for the certification.
+* On your PC click the three dots in the bottom left corner, then select Connect.
+* Enter your VM1 username and password. Click continue.
+* Click continue for certification.
+
+<p>
+<img src="https://i.imgur.com/NV6neaf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 <p>
 <img src="https://i.imgur.com/4hvT67N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -227,6 +232,8 @@ In this tutorial, we'll be examining the network activity of Azure Virtual Machi
 <p>
 
 Step 2. Certification and Access:
+
+* For privacy settings, set all options to "No."
 * After connecting, allow VM1 to access other PCs on the network if prompted.
 * Open a web browser on VM1.
 
