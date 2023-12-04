@@ -296,33 +296,96 @@ Step 4. Open and Start Capturing with Wireshark:
 * On Windows VM1 Command Prompt, type ping (Linux VM2's private IP).
 * Observe changes in Windows VM1 ICMP traffic.
 
+<p>
+<img src="https://i.imgur.com/4SSLp8x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
 <b>Step 2. Manage ICMP Traffic with NSG for Ubuntu VM2:</b>
 * First do a perpetual ping from VM1 To VM2, using the command prompt on VM1.
-* On VM1 Command Prompt, type ping -t (VM2's private IP) for perpetual ping.
-* Access NSG settings for Ubuntu VM2.
-* Turn off incoming ICMP traffic.
-* Observe impact on Windows VM1’s ICMP traffic.
-* Re-enable ICMP traffic in NSG for Ubuntu VM2.
-* Observe changes in Windows VM1’s ICMP traffic.
-* To stop the perpetual ping in the Command Prompt press Ctrl + C"
+* On VM1 Command Prompt, type ping -t (VM2's private IP) for perpetual ping. Click enter and observe ICMP traffic.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2ghEttG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+* Back in the Azure portal, navigate to VM2.
+* Select "Networking" from the left menu.
+* Click on "Add inbound port rule.
+
+<p>
+<img src="https://i.imgur.com/EjWKg2b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+* Disable incoming ICMP traffic.
+* In "Add Inbound Port Rule,"
+* For Protocol, select ICMP.
+* For Action, select Deny.
+* Then click "Add."
+
+<p>
+<img src="https://i.imgur.com/FGDf9tE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+* Observe impact on Windows VM1’s ICMP traffic.
+
+<p>
+<img src="https://i.imgur.com/WfFKuXc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+* Re-enable ICMP traffic in NSG for Ubuntu VM2.
+* Go back azure portal
+* Select vm2 + Networking and click on you ICMP deny rule you created.
+* Click ICMP + Allow and click save.
+
+<p>
+<img src="https://i.imgur.com/vGxuyci.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+<p>
+<img src="https://i.imgur.com/bsFS7x0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+* Observe changes in Windows VM1's ICMP traffic.
+* To stop the perpetual ping in the Command Prompt, press Ctrl + C.
+
+<p>
+<img src="https://i.imgur.com/1dQtyPo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 <b>WIRESHARK TRAFFIC ANALYSIS: SSH, DHCP, DNS, and RDP PROTOCOLS</b>
 
-Step 1. Observe SSH (Secure Shell) Traffic:
+<b>Step 1. Observe SSH (Secure Shell) Traffic:</b>
 * On VM1 Go to Wireshark and Filter for “ssh”
 * Refresh Wireshark and continue without saving. So now your filtering by SSH traffic.
-* Log into VM2 from VM1's Command Prompt using SSH
+
+<p>
+<img src="https://i.imgur.com/s2prJVN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+* Log into VM2 from VM1's Command Prompt using SSH.
+* type ssh  username  (VM2's private IP) for perpetual ping.
+* Use VM2's private IP.
 * Type the following command:
 * ssh labuser@10.0.0.5 (VM2’s username@VM2's private IP) and enter. 
 * It will ask are you sure you want to continue connecting, Type yes and enter.
 * Enter the password (password will be blank, but you are typing.)
 * Then you should have a connection to VM2.
 * Observe SSH Traffic
+
+<p>
+<img src="https://i.imgur.com/0DNnkPq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
 * To exit SSH connection type exit in the command line + enter and the connection is closed and you will be back in VM1’s command line.
 
 <p>
