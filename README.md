@@ -470,13 +470,13 @@ Step 4. Open and Start Capturing with Wireshark:
 <p>
 
 * Repeat steps for any remaining Resource groups in your subscription that may have been automatically created.
-* Go back to resource groups and refresh.
 
 <p>
 <img src="https://i.imgur.com/l2O9wTe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
+* Go back to resource groups and refresh.
 * When it says "No resource groups to display," you are done.
 * And we are finished with this tutorial. Thank you.
 
