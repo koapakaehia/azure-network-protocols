@@ -425,7 +425,12 @@ Step 4. Open and Start Capturing with Wireshark:
 * Observe DNS Traffic.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PWeRkKQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+<p>
+<img src="https://i.imgur.com/o44RbXl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -435,25 +440,45 @@ Step 4. Open and Start Capturing with Wireshark:
 * Observe traffic when using RDP between VM1 and VM2.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EVEHokp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 <b>Step 5: Cleanup in Azure:</b>
 * When finished, delete your Resource Group and Virtual Machines in Microsoft Azure to avoid incurring costs.
 * Go to the Azure portal.
-* Click on Resource groups and select your created Resource Group.
-* Click on Delete resource group.
-* Copy and paste the resource group and click delete.
-* Repeat steps for any remaining Resource groups in your subscription that may have been automatically created.
-* Go back to resource groups and refresh.
-* When it says "No resource groups to display," you are done.
+* Click on "Resource groups."
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Oozb9AG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+* Select your created Resource Group.
+
+<p>
+<img src="https://i.imgur.com/X8UiCtx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+* Click on "Delete resource group."
+* Copy and paste the resource group name and click "Delete."
+
+<p>
+<img src="https://i.imgur.com/y3bwvei.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+* Repeat steps for any remaining Resource groups in your subscription that may have been automatically created.
+* Go back to resource groups and refresh.
+
+<p>
+<img src="https://i.imgur.com/l2O9wTe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+* When it says "No resource groups to display," you are done.
+* And we are finished with this tutorial. Thank you.
+
 </p>
 <br />
